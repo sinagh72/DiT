@@ -1,0 +1,20 @@
+name: DiT
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python = 3.10
+  - pytorch >= 1.13
+  - torchvision
+  - pytorch-cuda=12.4
+  - pip:
+    - timm
+    - diffusers
+    - accelerate
+    - lightning
+    - python-dotenv
+    - pandas
+    - scikit-learn
+    - natsort
+    - subsetsum
+    - openpyxl
